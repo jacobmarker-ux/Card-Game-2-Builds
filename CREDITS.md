@@ -3,6 +3,11 @@
 Card Game 2 uses the following third-party assets. Each pack's original license file is kept next to it as
 `assets/third_party/<pack>/LICENSE.txt`. Packs are imported with `tools/import_assets.py` (see `docs/ASSETS.md`).
 
+> **This repository is private, and must stay private as long as it contains non-CC0 packs.** Assets under the
+> Quaternius Asset License (QAL), currently `quaternius_bestiary/`, must not be published as raw files. Before this repo
+> ever goes public, remove `_incoming/` (it's git-ignored, but check) and every non-CC0 pack **from the entire git
+> history** (e.g. with `git filter-repo --path assets/third_party/quaternius_bestiary --invert-paths`), not just from
+> the latest commit. Shipping these assets inside a built game is allowed.
 
 ## 3D models
 
@@ -17,6 +22,13 @@ Card Game 2 uses the following third-party assets. Each pack's original license 
 - **Fantasy Props MegaKit (Standard)** — CC0 1.0 — `assets/third_party/quaternius_fantasy_props/`
 - **Stylized Nature MegaKit (Standard)** — CC0 1.0 — `assets/third_party/quaternius_stylized_nature/`
 - **3D Card Kit – Fantasy (Standard)** — CC0 1.0 — `assets/third_party/quaternius_card_kit/`
+- **Modular Character Outfits – Fantasy (Standard)** — CC0 1.0 — `assets/third_party/quaternius_outfits/` (textures downscaled to 1024²)
+- **Universal Base Characters (Standard)** — CC0 1.0 — `assets/third_party/quaternius_base_characters/` (textures downscaled to 1024²)
+- **Dinosaur Animated Pack** — CC0 1.0 — `assets/third_party/quaternius_dinosaurs/`
+- **LowPoly Animated Monsters** — CC0 1.0 (as listed at https://quaternius.itch.io/lowpoly-animated-monsters; the
+  download has no license file) — `assets/third_party/quaternius_monsters/`
+- **LowPoly Animated Animals** — CC0 1.0 (as listed at https://quaternius.itch.io/lowpoly-animated-animals; the
+  download has no license file) — `assets/third_party/quaternius_farm_animals/`
 - **Bestiary – Dungeon Monsters Kit (Standard)** — Quaternius Asset License (QAL) v1.0 —
   `assets/third_party/quaternius_bestiary/`. Free for commercial use, no credit required. **Not CC0:** the
   raw assets may not be redistributed *as assets*. Shipping them inside the game is fine, but don't publish this
