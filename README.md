@@ -9,7 +9,7 @@ Get the latest build from **[Releases](../../releases/latest)**:
   publisher is unknown (the build isn't signed): click **More info** → **Run anyway**.
 - **Linux:** `CardGame2-<version>-linux.tar.gz`. Extract it and run `CardGame2.x86_64`.
 
-Both players must use the **same version** (it's in the file name). Current: `2026-10-08-b6ad961`.
+Both players must use the **same version** (it's in the file name). Current: `2026-10-08-20b0b6e`.
 
 ## Playing Versus with friends
 No server to rent: one of you **hosts** (the match runs inside the host's game) and the other **joins**.
